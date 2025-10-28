@@ -36,8 +36,8 @@ if (savedForm) {
   selector: 'app-login',
   standalone: true,
   imports: [ReactiveFormsModule],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css',
+  templateUrl: './login.html',
+  styleUrl: './login.css',
 })
 export class LoginComponent implements OnInit {
   private destroyRef = inject(DestroyRef);
@@ -120,8 +120,8 @@ export class LoginComponent implements OnInit {
 //   selector: 'app-login',
 //   standalone: true,
 //   imports: [FormsModule],
-//   templateUrl: './login.component.html',
-//   styleUrl: './login.component.css',
+//   templateUrl: './login.html',
+//   styleUrl: './login.css',
 // })
 // export class LoginComponent {
 //   private form = viewChild.required<NgForm>('form');

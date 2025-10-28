@@ -25,8 +25,8 @@ function equalValues(controlName1: string, controlName2: string) {
   selector: 'app-signup',
   standalone: true,
   imports: [ReactiveFormsModule],
-  templateUrl: './signup.component.html',
-  styleUrl: './signup.component.css',
+  templateUrl: './signup.html',
+  styleUrl: './signup.css',
 })
 export class SignupComponent {
   form = new FormGroup({
